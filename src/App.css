@@ -1,5 +1,62 @@
 @import '~antd/dist/antd.css';
 
+.save-btn{
+  float:left;
+  background: #008392;
+  border-radius: 6px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  border-color: #008392;
+  color: #fff;
+}
+
+.save-btn:hover{
+  background: #fff;
+  color: #008392;
+  border-color: #008392;
+  border-radius: 6px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.label-font {
+  color: #222222;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.upload-btn {
+  color: #717171;
+  background-color: #fff;
+  border: 1px solid #EBEBEB;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 20px;
+  padding: 5px 12px;
+}
+
+.upload-btn:hover {
+  cursor: pointer;
+}
+
+.about-section {
+  padding: 50px 100px;
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+
 .nav-cta{
   float: right;
 }
