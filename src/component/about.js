@@ -11,7 +11,7 @@ function About({name,email,shortbio,setName,setEmail,setShortBio,showform,setSho
             {/** display image name email shortBio */}
            <div style={{padding:'0 5px'}}>
               <Row gutter={[16, 16]}>
-                  <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 5 }}>
+                  <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 5 }} style={{textAlign:'center'}}>
                     <Avatar style={{background:'none'}} size={{ xs: 120, sm: 120, md: 120, lg: 140, xl: 140, xxl: 140 }} src={selectedImage} alt="First slide"/>
                   </Col>
                   <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 19 }}>
