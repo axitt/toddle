@@ -1,5 +1,180 @@
 @import '~antd/dist/antd.css';
 
+.tab-content-font3{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2B2B2B;
+}
+
+.tab-content-font1{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2B2B2B;
+}
+
+.tab-content-font2{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2B2B2B;
+}
+
+[data-theme='compact'] .site-collapse-custom-collapse .site-collapse-custom-panel,
+.site-collapse-custom-collapse .site-collapse-custom-panel {
+  margin: 24px 0 24px 0;
+}
+
+.ant-collapse-item {
+  border: 0.5px #717171 solid;
+  border-radius: 6px;
+}
+
+.ant-collapse{
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.ant-collapse-header{
+  border-bottom: 0.5px #717171 solid;
+  border-radius: 6px;
+}
+
+.ant-collapse-header[aria-expanded="true"]{
+  border-bottom: none;
+}
+
+.ant-collapse-content{
+  border-bottom: 0.5px #717171 solid;
+  border-radius: 6px;
+}
+
+input {
+  font-style: normal;
+  font-size: small;
+  font-weight: 600;
+  line-height: 24px;
+  color: #2B2B2B;
+}
+
+textarea {
+  font-style: normal;
+  font-size: small;
+  font-weight: 600;
+  line-height: 24px;
+  color: #2B2B2B;
+}
+
+.ant-modal-content{
+  border-radius: 8px;
+}
+
+.modal-head{
+  color: #222222;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.about-bio{
+  color: #222222;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.about-email{
+  color: #717171;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.about-name{
+  color: #222222;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background: #EBEBEB
+}
+
+.add-btn{
+  background: #fff;
+  color: #000;
+  border-color: #000;
+  border-radius: 6px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.tab-section{
+  padding: 20px 330px;
+  height: 100px;
+}
+
+.ant-tabs-tab-btn{
+  color: #717171;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #222222 !important; 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.ant-tabs-ink-bar {
+  background: #000000;
+}
+
+.edit-btn{
+  float:left;
+  background: #fff;
+  border-radius: 6px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  border-color: #717171;
+  color: #717171;
+}
+
+.edit-btn:hover{
+  float:left;
+  background: #fff;
+  border-radius: 6px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  border-color: #000;
+  color: #000;
+}
+
 .save-btn{
   float:left;
   background: #008392;
@@ -48,7 +223,7 @@
 }
 
 .about-section {
-  padding: 50px 100px;
+  padding: 50px 100px 30px 100px;
 }
 
 .site-layout-content {
@@ -166,5 +341,18 @@ body{
 @media only screen and (max-width: 700px) {
   .logo{
     display: none;
+  }
+
+  .tab-section{
+    padding: 30px 110px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 700px)  and (max-width: 1100px) {
+
+  .tab-section{
+    padding: 30px 200px;
+    height: 100px;
   }
 }
